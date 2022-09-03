@@ -1,10 +1,11 @@
-import LogoSlider from "./components/slider/LogoSlider";
+// import Header from "./components/Header";
+import Navbar from "./components/navbar/Navbar";
+// import LogoSlider from "./components/slider/LogoSlider";
 
 function App() {
   return (
     <div>
-      <h1>Hello</h1>
-      <LogoSlider />
+      <Navbar />
     </div>
   );
 }
