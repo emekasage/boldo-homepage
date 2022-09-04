@@ -7,14 +7,8 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header
-      className={
-        navbar
-          ? "top-0 z-50 active overflow-hidden"
-          : "bg-transparent top-0 z-10 overflow-hidden"
-      }
-    >
-      <div className="container mx-auto py-5 px-8 md:px-20 flex justify-between items-center">
+    <header className="bg-transparent top-0 z-10 overflow-hidden">
+      <div className="container mx-auto py-5 px-8 md:px-10 lg:px-20 flex justify-between items-center">
         <div>
           <svg
             width="163"
@@ -71,7 +65,7 @@ const Navbar = () => {
                   : "w-full top-0 left-0 absolute transition-all duration-500 ease-in"
               }
             >
-              <div className="w-full h-auto bg-transparent ml-0 flex flex-col space-y-3 justify-center p-8 transition-all duration-500 ease-in">
+              <div className="w-full h-auto bg-transparent ml-0 flex flex-col space-y-3 justify-center p-8">
                 <ul
                   className="text-base font-medium space-y-5 flex flex-col justify-center items-center"
                   style={{ color: "#0A2640" }}
