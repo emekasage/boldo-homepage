@@ -7,7 +7,7 @@ const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <header className="bg-transparent top-0 z-10 overflow-hidden">
+    <header className="bg-transparent pt-6 z-10 overflow-hidden">
       <div className="container mx-auto py-5 px-8 md:px-10 lg:px-20 flex justify-between items-center">
         <div>
           <svg
