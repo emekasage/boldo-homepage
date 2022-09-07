@@ -24,6 +24,6 @@ export const MenuItems = [
     title: "Log in",
     url: "#",
     cName:
-      "border-2 rounded-3xl px-36 py-2.5 text-center border-gray-900 md:hidden",
+      "border-2 rounded-3xl max-w-full px-28 py-2.5 text-center border-gray-900 md:hidden",
   },
 ];

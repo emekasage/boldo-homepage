@@ -10,6 +10,9 @@ module.exports = {
     "./src/components/service/ServiceGrid.js",
     "./src/components/service/ServiceFlow.js",
     "./src/components/sections/Testimonials.js",
+    "./src/components/sections/Work.js",
+    "./src/components/sections/Blog.js",
+    "./src/components/sections/Newsletter.js",
     "./src/components/sections/Footer.js",
   ],
   theme: {

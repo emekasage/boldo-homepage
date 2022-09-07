@@ -61,7 +61,7 @@ const Navbar = () => {
             <div
               className={
                 showMenu
-                  ? "w-full bg-white block absolute top-16 left-0 shadow-lg transition-all duration-500 ease-in"
+                  ? "w-full bg-white block absolute top-24 left-0 shadow-lg transition-all duration-500 ease-in"
                   : "w-full top-0 left-0 absolute transition-all duration-500 ease-in"
               }
             >
