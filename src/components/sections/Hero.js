@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import { logoData } from "../slider/logo-data";
+import LogoSlider from "../slider/LogoSlider";
 
 const Hero = () => {
   return (
@@ -57,16 +57,8 @@ const Hero = () => {
           />
         </div>
       </div>
-      <div className="container max-w-max my-12 mx-auto">
-        <div className="relative flex gap-14 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0">
-          {logoData.map((logos, index) => {
-            return (
-              <div key={index} className="relative w-36 h-10">
-                <img src={logos.image} alt="logos" />
-              </div>
-            );
-          })}
-        </div>
+      <div>
+        <LogoSlider />
       </div>
     </section>
   );

@@ -5,10 +5,7 @@ import ServiceGrid from "../service/ServiceGrid";
 const Services = () => {
   return (
     <section>
-      <div
-        className="pt-20 pb-12 px-4 md:px-16 lg:px-24"
-        style={{ backgroundColor: "#0A2640" }}
-      >
+      <div className="pt-20 pb-12 px-4 md:px-16 lg:px-24 bg-[#0A2640]">
         <div
           className="mx-auto flex flex-col justify-center text-center text-white"
           style={{ maxWidth: "842px" }}

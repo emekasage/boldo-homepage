@@ -20,7 +20,7 @@ const ServiceFlow = () => {
           <img
             src="../../assets/Service-4.png"
             alt="service-fourth"
-            className="md:max-w-xs lg:max-w-full object-cover"
+            className="md:max-w-[308px] lg:max-w-full object-cover"
           />
         </div>
         <div className="flex flex-col md:max-w-xs lg:max-w-lg">
@@ -112,7 +112,7 @@ const ServiceFlow = () => {
           <img
             src="../../assets/Service-5.png"
             alt="service-five"
-            className="md:max-w-xs lg:max-w-full object-cover"
+            className="md:max-w-[308px] lg:max-w-full object-cover"
           />
         </div>
         <div className="flex flex-col md:max-w-xs lg:max-w-lg">

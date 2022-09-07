@@ -2,24 +2,19 @@ import React from "react";
 import { logoData } from "./logo-data";
 
 const LogoSlider = () => {
-  // eslint-disable-next-line no-unused-vars
-  //   const [currentIndex, setCurrentIndex] = useState(0);
-  //   const slideLength = logoData.length;
-
-  //   const autoScroll = true;
-  //   let intervalTime = 1000;
-
-  //   const nextLogo = () => {
-  //     setCurrentIndex(currentIndex === slideLength - 1 ? 0 : currentIndex + 1);
-  //   };
-
   return (
-    <div>
-      <div className="relative flex gap-2 overflow-hidden scroll-smooth snap-x snap-mandatory touch-pan-x z-0">
-        {logoData.map((logos, index) => {
+    <div className="ml-4 mr-6 mt-9 md:ml-20 md:mr-28 md:mt-12 overflow-hidden">
+      <div className="marquee-wrapper scroll-smooth">
+        {Array.from(Array(2), (e, i) => {
           return (
-            <div key={index} className="relative w-36 h-10 snap-start">
-              <img src={logos.image} alt="logos" />
+            <div className="marquee gap-2 md:gap-4  lg:gap-7" key={i}>
+              {logoData.map((slide, index) => {
+                return (
+                  <div key={index} className="carousel">
+                    <img src={slide.image} alt="slide" />
+                  </div>
+                );
+              })}
             </div>
           );
         })}

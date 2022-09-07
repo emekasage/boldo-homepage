@@ -9,10 +9,17 @@ module.exports = {
     "./src/components/sections/Services.js",
     "./src/components/service/ServiceGrid.js",
     "./src/components/service/ServiceFlow.js",
+    "./src/components/sections/Testimonials.js",
     "./src/components/sections/Footer.js",
   ],
   theme: {
     fontSize: {
+      sm: [
+        "14px",
+        {
+          lineHeight: "1.25rem",
+        },
+      ],
       base: [
         "16px",
         {
